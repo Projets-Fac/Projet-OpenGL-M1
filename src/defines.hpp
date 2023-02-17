@@ -12,6 +12,5 @@ const unsigned int SCR_HEIGHT = 500;
 
 // Window functions prototypes 
 void initGLFWWindow();
-
 void processInput(GLFWwindow *window);
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);

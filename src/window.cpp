@@ -14,7 +14,6 @@ void initGLFWWindow() {
     glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
 }
 
-
 void processInput(GLFWwindow *window) {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
