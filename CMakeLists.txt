@@ -11,7 +11,7 @@ endif()
 find_package(glfw3 3.3 REQUIRED)
 
 # Create an executable
-add_executable(main src/main.cpp src/glad.c)
+add_executable(main src/main.cpp src/glad.c src/window.cpp)
 
 # Link the executable to the libraries
 target_link_libraries(main glfw)
