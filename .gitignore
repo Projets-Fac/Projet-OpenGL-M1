@@ -72,3 +72,4 @@ Temporary Items
 *.exe
 *.out
 *.app
+build/
